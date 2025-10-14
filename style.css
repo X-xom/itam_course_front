@@ -2,3 +2,60 @@
     text-decoration: none;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(240, 207, 140);
+}
+
+.icon_hamster {
+    width: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253, 246, 227);
+}
+
+.list_arguments {
+    background-color: rgb(255, 208, 113);
+    border-radius: 15px;
+    padding-left: 0;
+    padding: 20px 20px 20px 40px;
+    
+}
+
+.title_expectation {
+    padding-left: 24px;
+}
+
+.list_expectation {
+    background-color: rgb(255, 208, 113);
+    border-radius: 15px;
+    padding: 20px 20px 20px 40px;
+    list-style-type: '🐹 ';
+}
+
+.footer {
+    background-color: rgba(143, 116, 69, 0.564);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cute_hamster{
+    width: 170px;
+    
+}
